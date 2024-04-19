@@ -1,0 +1,203 @@
+{
+  "featured": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "imageOne": "./assets/images/product-1-1.jpg",
+        "imageTwo": "./assets/images/product-1-2.jpg",
+        "badge": "Hot",
+        "category": "Clothing",
+        "title": "Colorful Pattern Shirts",
+        "oldPrice": 238.85,
+        "newPrice": 245.8,
+        "badgeClass": "light-pink",
+        "desc": "Maboriosam in a tonto nesciung eget distingy magndapibus."
+      }
+    },
+
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "imageOne": "./assets/images/product-9-1.jpg",
+        "imageTwo": "./assets/images/product-9-2.jpg",
+        "badge": "-22%",
+        "category": "Clothing",
+        "title": "Colorful Pattern Shirts",
+        "oldPrice": 238.85,
+        "newPrice": 245.8,
+        "badgeClass": "light-orange",
+        "desc": "Maboriosam in a tonto nesciung eget distingy magndapibus."
+      }
+    },
+
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "imageOne": "./assets/images/product-2-1.jpg",
+        "imageTwo": "./assets/images/product-2-2.jpg",
+        "badge": "Hot",
+        "category": "Clothing",
+        "title": "Colorful Pattern Shirts",
+        "oldPrice": 238.85,
+        "newPrice": 245.8,
+        "badgeClass": "light-green",
+        "desc": "Maboriosam in a tonto nesciung eget distingy magndapibus."
+      }
+    },
+
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "imageOne": "./assets/images/product-1-1.jpg",
+        "imageTwo": "./assets/images/product-1-2.jpg",
+        "badge": "-30%",
+        "category": "Clothing",
+        "title": "Colorful Pattern Shirts",
+        "oldPrice": 238.85,
+        "newPrice": 245.8,
+        "badgeClass": "light-blue",
+        "desc": "Maboriosam in a tonto nesciung eget distingy magndapibus."
+      }
+    },
+
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "imageOne": "./assets/images/product-1-1.jpg",
+        "imageTwo": "./assets/images/product-1-2.jpg",
+        "badge": "Hot",
+        "category": "Clothing",
+        "title": "Colorful Pattern Shirts",
+        "oldPrice": 238.85,
+        "newPrice": 245.8,
+        "badgeClass": "light-pink"
+      }
+    },
+
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "imageOne": "./assets/images/product-9-1.jpg",
+        "imageTwo": "./assets/images/product-9-2.jpg",
+        "badge": "-22%",
+        "category": "Clothing",
+        "title": "Colorful Pattern Shirts",
+        "oldPrice": 238.85,
+        "newPrice": 245.8,
+        "badgeClass": "light-orange"
+      }
+    },
+
+    {
+      "sys": {
+        "id": "7"
+      },
+      "fields": {
+        "imageOne": "./assets/images/product-2-1.jpg",
+        "imageTwo": "./assets/images/product-2-2.jpg",
+        "badge": "Hot",
+        "category": "Clothing",
+        "title": "Colorful Pattern Shirts",
+        "oldPrice": 238.85,
+        "newPrice": 245.8,
+        "badgeClass": "light-green"
+      }
+    },
+
+    {
+      "sys": {
+        "id": "8"
+      },
+      "fields": {
+        "imageOne": "./assets/images/product-1-1.jpg",
+        "imageTwo": "./assets/images/product-1-2.jpg",
+        "badge": "-30%",
+        "category": "Clothing",
+        "title": "Colorful Pattern Shirts",
+        "oldPrice": 238.85,
+        "newPrice": 245.8,
+        "badgeClass": "light-blue"
+      }
+    }
+  ],
+
+  "popular": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "imageOne": "./assets/images/product-4-1.jpg",
+        "imageTwo": "./assets/images/product-4-2.jpg",
+        " badge": "Hot",
+        "category": "Clothing",
+        " title": "Colorful Pattern Shirts",
+        "oldPrice": 238.85,
+        "newPrice": 245.8,
+        "badgeClass": "light-pink"
+      }
+    },
+
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "imageOne": "./assets/images/product-10-1.jpg",
+        "imageTwo": "./assets/images/product-10-2.jpg",
+        " badge": "-22%",
+        "category": "Clothing",
+        " title": "Colorful Pattern Shirts",
+        "oldPrice": 238.85,
+        "newPrice": 245.8,
+        "badgeClass": "light-blue"
+      }
+    }
+  ],
+
+  "newAdded": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "imageOne": "./assets/images/product-11-1.jpg",
+        "imageTwo": "./assets/images/product-11-2.jpg",
+        " badge": "Hot",
+        "category": "Clothing",
+        " title": "Colorful Pattern Shirts",
+        "oldPrice": 238.85,
+        "newPrice": 245.8,
+        "badgeClass": "light-orange"
+      }
+    },
+
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "imageOne": "./assets/images/product-12-1.jpg",
+        "imageTwo": "./assets/images/product-12-2.jpg",
+        " badge": "-22%",
+        "category": "Clothing",
+        " title": "Colorful Pattern Shirts",
+        "oldPrice": 238.85,
+        "newPrice": 245.8,
+        "badgeClass": "light-green"
+      }
+    }
+  ]
+}

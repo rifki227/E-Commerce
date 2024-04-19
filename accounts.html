@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Website Icon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <!-- FlatIcon Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+
+    <!-- Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+    />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title></title>
+  </head>
+  <body>
+    <!-- **************** HEADER ****************-->
+    <header class="header">
+      <div class="header_top">
+        <div class="header_container container">
+          <div class="header_contact">
+            <span> (+20)- 1025 048 330 </span>
+            <span>Our Location</span>
+          </div>
+          <p class="header_alert-news">
+            Super Value Deals - Save more with coupons
+          </p>
+
+          <a href="login_register.html" class="header_top-action"
+            >SignIn / SignUp</a
+          >
+        </div>
+      </div>
+
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img src="./assets/images/logo.png" alt="" class="nav__logo-image" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__menu-top">
+            <a href="index.html" class="nav__menu-logo">
+              <img
+                src="./assets/images/logo.png"
+                alt=""
+                class="nav__logo-image"
+              />
+            </a>
+
+            <div class="nav__close" id="nav-close">
+              <i class="fi fi-rs-cross-small"></i>
+            </div>
+          </div>
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active__link"> Home </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="shop.html" class="nav__link"> Shop </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="accounts.html" class="nav__link"> My Account </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="login_register.html" class="nav__link"> Login </a>
+            </li>
+          </ul>
+
+          <div class="header__search">
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Search for items.."
+              class="form__input"
+            />
+
+            <button class="search__btn">
+              <img
+                src="./assets/images/search.svg"
+                alt=""
+                width="25px"
+                height="25px auto"
+              />
+            </button>
+          </div>
+        </div>
+
+        <div class="header__user-actions">
+          <a href="whishList.html" class="header__action-btn">
+            <i class="icon-heart"></i>
+            <span class="count"> 3 </span>
+          </a>
+
+          <a href="cart.html" class="header__action-btn">
+            <i class="icon-handbag"></i>
+            <span class="count"> 3 </span>
+          </a>
+
+          <div class="header__action-btn nav__toggle" id="nav-toggle">
+            <!-- <i class="icon-menu"></i> -->
+            <i class="fi fi-rs-bars-staggered"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- **************** MAIN ******************-->
+    <main class="main">
+      <!-- BREADCRUMP -->
+      <section class="breadcrump">
+        <ul class="breadcrump__list flex container">
+          <li>
+            <a href="index.html" class="breadcrump__link">Home</a>
+          </li>
+
+          <li>
+            <span class="breadcrump__link">/</span>
+          </li>
+
+          <li>
+            <span class="breadcrump__link">My Account</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- MY ACCOUNT -->
+      <section class="accounts section-lg">
+        <div class="accounts__container container grid">
+          <div class="account__tabs">
+            <p class="account__tab active__tab" data-target="#dashboard">
+              <i class="fi fi-rs-settings-sliders"></i> Dashboard
+            </p>
+
+            <p class="account__tab" data-target="#orders">
+              <i class="fi fi-rs-shopping-bag"></i> Orders
+            </p>
+
+            <p class="account__tab" data-target="#update-profile">
+              <i class="fi fi-rs-user"></i> Update Profile
+            </p>
+
+            <p class="account__tab" data-target="#address">
+              <i class="fi fi-rs-marker"></i> My Address
+            </p>
+
+            <p class="account__tab" data-target="#change-password">
+              <i class="fi fi-rs-user"></i> Change Password
+            </p>
+
+            <p class="account__tab">
+              <i class="fi fi-rs-exit"></i>
+              <a href="login_register.html" class="logout"> Logout</a>
+            </p>
+          </div>
+
+          <div class="tabs__content">
+            <div class="tab__content active__tab" content id="dashboard">
+              <h3 class="tab__header">Hello Customer</h3>
+
+              <div class="tab__body">
+                <p class="tab__description">
+                  Kami dengan bangga mempersembahkan koleksi pakaian muslim yang elegan, nyaman, dan sesuai dengan tren terkini. Berkah Mode adalah destinasi belanja yang sempurna bagi mereka yang mencari busana muslim berkualitas tinggi.
+                </p>
+              </div>
+            </div>
+
+            <div class="tab__content" content id="orders">
+              <h3 class="tab__header">My Orders</h3>
+
+              <div class="tab__body">
+                <table class="placed__order-table">
+                  <tr>
+                    <th>Orders</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th>Total</th>
+                    <th>Actions</th>
+                  </tr>
+
+                  <tr>
+                    <td>#1</td>
+                    <td>15 April, 2024</td>
+                    <td>Processing</td>
+                    <td>Rp.170.000</td>
+                    <td>
+                      <a href="#" class="view__order">View</a>
+                    </td>
+                  </tr>
+
+                </table>
+              </div>
+            </div>
+
+            <div class="tab__content" content id="update-profile">
+              <h3 class="tab__header">Update My Profile</h3>
+
+              <div class="tab__body">
+                <form action="" class="form grid">
+                  <input
+                    type="text"
+                    placeholder="Username"
+                    class="form__input"
+                  />
+
+                  <div class="form__btn">
+                    <button class="btn btn__md">Save</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="tab__content" content id="address">
+              <h3 class="tab__header">Shipping Address</h3>
+
+              <div class="tab__body">
+                <address class="alamat">
+                  20 Caringin <br />
+                  jln. Cicurug<br />
+                  Negara <br />
+                </address>
+                <p class="city">Bogor , Indonesia</p>
+                <a href="" class="edit btn btn__sm">Edit</a>
+              </div>
+            </div>
+
+            <div class="tab__content" content id="change-password">
+              <h3 class="tab__header">Change My Password</h3>
+
+              <div class="tab__body">
+                <form action="" class="form grid">
+                  <input
+                    type="password"
+                    placeholder="Current Password"
+                    class="form__input"
+                  />
+
+                  <input
+                    type="password"
+                    placeholder="New Password"
+                    class="form__input"
+                  />
+
+                  <input
+                    type="password"
+                    placeholder="Confirm Password"
+                    class="form__input"
+                  />
+
+                  <div class="form__btn">
+                    <button class="btn btn__md">Save</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- NEWSLETTER -->
+      <section class="newsletter section home__newsletter">
+        <div class="newsletter__container container grid">
+          <h3 class="newsletter__title flex">
+            <img
+              src="./assets/images/icon-email.svg"
+              alt=""
+              class="newsletter__icon"
+            />
+            Sign Up to Newsletter
+          </h3>
+
+          <form action="" class="newsletter__form">
+            <input
+              type="email"
+              class="newsletter__input"
+              placeholder="Enter your E-mail"
+            />
+            <button class="newsletter__btn" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- **************** FOOTER ******************-->
+    <footer class="footer container">
+      <div class="footer__container grid">
+        <div class="footer__content">
+          <a href="index.html" class="footer__logo">
+            <img
+              src="./assets/images/logo.png"
+              alt=""
+              class="footer__logo-image"
+            />
+          </a>
+
+          <h4 class="footer__subtitle">Kontak</h4>
+          <p class="footer__description">
+            <span>Alamat</span> : Ciawi, Bogor, Jawa Barat 
+          </p>
+
+          <p class="footer__description">
+            <span>Telepom</span> : +6289529421547 / +6288213317275 / +6289685949477 / +6283135153798
+          </p>
+
+          <p class="footer__description">
+            <span>Jam</span> : 10:00<span>am</span> - 20:00<span>pm</span> ,
+            Senin - Sabtu
+          </p>
+
+          <div class="footer__social">
+            <h4 class="footer__subtitle">Follow Me</h4>
+            <div class="footer__social-links flex">
+              <a href="https://facebook.com">
+                <img
+                  src="./assets/images/icon-facebook.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="https://twitter.com">
+                <img
+                  src="./assets/images/icon-twitter.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="https://instagram.com">
+                <img
+                  src="./assets/images/icon-instagram.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="https://pinterest.com">
+                <img
+                  src="./assets/images/icon-pinterest.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+
+              <a href="https://youtube.com">
+                <img
+                  src="./assets/images/icon-youtube.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Address</h3>
+          <ul class="footer__links">
+            <li>
+              <a href="" class="footer__link">About Us</a>
+            </li>
+
+            <li>
+              <a href="" class="footer__link">Delivery Information</a>
+            </li>
+
+            <li>
+              <a href="" class="footer__link"> Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="" class="footer__link"> Terms & Conditions </a>
+            </li>
+
+            <li>
+              <a href="" class="footer__link">Contact Us</a>
+            </li>
+
+            <li>
+              <a href="" class="footer__link"> Support Center</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">My Account</h3>
+          <ul class="footer__links">
+            <li>
+              <a href="login_register.html" class="footer__link">Sign In</a>
+            </li>
+
+            <li>
+              <a href="cart.html" class="footer__link">View Cart</a>
+            </li>
+
+            <li>
+              <a href="whishList.html" class="footer__link"> My Wishlist</a>
+            </li>
+
+            <li>
+              <a href="checkOut.html" class="footer__link"> Track my Order </a>
+            </li>
+
+            <li>
+              <a href="" class="footer__link">Help</a>
+            </li>
+
+            <li>
+              <a href="" class="footer__link"> Order</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Secured Payment Gatways</h3>
+
+          <img
+            src="./assets/images/payment-method.png"
+            alt=""
+            class="payment__image"
+          />
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="copyright">&copy; 2024 Fashion. All Rights Reserved</p>
+        <span class="designer">Designed by FASHION</span>
+      </div>
+    </footer>
+
+    <!-- Swiper JS Link -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Font Awesome Link -->
+    <script
+      src="https://kit.fontawesome.com/2dd7407482.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Javascript File -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
